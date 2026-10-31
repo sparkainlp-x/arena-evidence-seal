@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: arena-evidence-seal
+message: >-
+  If you use this software, please cite it as below. The sealed numbers
+  are a byte-copy of a synthetic arena benchmark; SHA-256 matching proves
+  byte-consistency only, not authorship, provenance, or validity.
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    orcid: https://orcid.org/0009-0000-9778-5374
+    affiliation: Spark AI NLP
+version: 0.1.0
+license: AGPL-3.0-only
+repository-code: https://github.com/sparkainlp-x/arena-evidence-seal
+abstract: >-
+  Evidence-passport seal over a membrane-arena benchmark: a deterministic
+  manifest plus SHA-256 artifact verification and a fail-closed verify
+  command. Bar met on the fixture benchmark: seal verifies and sealed
+  numbers match benchmark.json byte-for-byte. Classical synthetic toy;
+  Mun Seok Lee is cited as inspiration only for the Digital to Wave
+  paradigm.
